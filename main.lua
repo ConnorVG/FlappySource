@@ -25,7 +25,10 @@ end)
 	cvg_physics.pause()
 
 --	Performance
-	cvg_performance:newPerformanceMeter()
+	cvg_performance:show()
+
+--	Extra Configuration
+	display.setStatusBar(display.HiddenStatusBar)
 
 --	Scenes
 	cvg_composer.gotoScene('scenes.cvg_game')
