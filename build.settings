@@ -1,0 +1,12 @@
+settings = {
+	orientation = {
+	--	Default orientation (portait, portraitUpsideDown, landscapeLeft, landscapeRight)
+		default = 'portrait',
+
+	--	Locked orientation (iOS)
+		content = 'portrait',
+
+	--	Allowed orientations
+		supported = { 'portrait', 'portraitUpsideDown' }
+	},
+}
